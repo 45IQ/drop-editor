@@ -5,7 +5,7 @@ import java.lang.invoke.MethodHandles
 
 
 val jsonPath: String = MethodHandles.lookup().lookupClass().getResource("/json/").path
-val yamlPath: String = MethodHandles.lookup().lookupClass().getResource("/yaml/").path
+//val yamlPath: String = MethodHandles.lookup().lookupClass().getResource("/yaml/").path
 val cachePath: String = MethodHandles.lookup().lookupClass().getResource("/cache/").path
 
 
